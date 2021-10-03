@@ -382,6 +382,7 @@ def main():
   
   time.sleep(3.0)
   
+  
   print("Screenshot time!")
   
   print(driver.current_url)
@@ -392,7 +393,7 @@ def main():
   writeBinaryFile(screenshot_filename, screenshot)
   
 
-  # driver.find_element_by_link_text('my link').click()
+  driver.find_element(selenium.webdriver.common.by.By.LINK_TEXT, 'Impressum').click()
 
   
   ##  driver.find_element_by_id('kw').send_keys('千锋教育')
