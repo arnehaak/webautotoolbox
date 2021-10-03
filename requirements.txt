@@ -1,0 +1,4 @@
+python>=3.9
+websockets>=10.0
+requests>=2.26.0
+selenium>=4.0.0rc2
